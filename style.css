@@ -217,7 +217,42 @@ p {
     border: 5px solid #949090;
 }
 
+/* end of home */
 
+
+/* start of product */
+
+.product_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 170px;
+    padding: 26px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image_product {
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image_product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.explore{
+    text-align: center;
+    justify-content: center;
+    font-family: "Sofia";
+}
 
 
 
