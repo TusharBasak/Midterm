@@ -3,13 +3,12 @@
     display: grid;
     grid-template-columns: 2fr 4fr;
     background-color: #EDF1FF;
-     /* make it sticky navbar */
-    
+   
     width: 70;
     margin: 7px;
     padding: 7px;
     border-radius: 4px;
-     /* make it sticky navbar */
+     
     
     
 
@@ -23,12 +22,14 @@
     width: 70px;
     
 }
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
    
    
   
@@ -138,6 +139,42 @@ button {
     background-color: #d3cece;
     border-radius: 13px;
 }
+
+
+/* home css */
+
+/* section1 */
+h1 {
+    font-size: 51px;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#section_1 {
+    display: flex;
+    background-color: #9f29c356;
+    
+}
+.section1_1{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.section1_2 img {
+    width: 70%;
+    padding-left: 9%;
+    margin-top: 7%;
+   
+
+}
+
 
 
 
