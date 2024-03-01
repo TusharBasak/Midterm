@@ -168,12 +168,67 @@ p {
 }
 
 .section1_2 img {
-    width: 70%;
+    width: 90%;
+    border-radius: 6px;
     padding-left: 9%;
     margin-top: 7%;
    
 
+
 }
+
+.borders {
+    border-left: solid 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border-radius: 4px;
+    width: 50%;
+
+}
+.test_color1 {
+    color: #21af0b;
+}
+.text_color2 {
+    color: #0f6a01c2;
+   
+}
+.link_page {
+    
+    text-decoration: none;
+    background: linear-gradient(rgb(70, 200, 172), rgba(196, 110, 95, 0.699));
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: rgb(168, 33, 33);
+    font-size: 20px;
+
+
+}
+
+/* .product-divs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-div {
+    text-align: center;
+}
+
+.product-div img {
+    width: 100%;
+    border: 5px solid #333;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.images img {
+    width: 30%;
+    border: 5px solid #333;
+} */
 
 
 
