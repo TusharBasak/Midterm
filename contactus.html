@@ -6,6 +6,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 <body>
     <!-- Tushar Basak ID:2022315 -->
@@ -24,6 +25,27 @@
 
         </div>
     </div>
+    <div class="contactinformation_form" class="tirang">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="suggestion">Suggestion:</label>
+            <textarea id="suggestion" name="suggestion" required></textarea>
+
+            <button type="button" onclick="contactForm()">Submit</button>
+        </form>
+    </div>
+
+    <!-- Display the output -->
+    <div class="display-input" id="displayInput">
+     
+    </div>
+
     <footer class="footer_text">
         <h1> <span class="footer_text_color"> Visit and Explore More </span>  </h1>
         <p> ©All Rights Reserved To Tushar Basak </p>
