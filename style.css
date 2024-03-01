@@ -52,7 +52,7 @@
 
   /* Change the link color to #111 (black) on hover */
 .navbar li a:hover {
-    background-color: #111;
+    background-color: #db3838;
   }
 
   .active {
@@ -64,6 +64,25 @@
     font-family: "Audiowide", sans-serif;
 
 }
+
+/* end of navbar */
+
+/* footer starts here
+ */
+
+
+ .footer_text {
+    text-align: center;
+    background-color: rgb(59, 51, 51);
+    color: white;
+    padding: 32px;
+}
+.footer_text_color {
+    color: rgba(214, 77, 53, 0.76);
+}
+/* end of footer */
+
+
 
 
 
