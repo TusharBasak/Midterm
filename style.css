@@ -160,6 +160,7 @@ p {
 #section_1 {
     display: flex;
     background-color: #9f29c356;
+   
     
 }
 .section1_1{
@@ -195,40 +196,26 @@ p {
 .link_page {
     
     text-decoration: none;
-    background: linear-gradient(rgb(70, 200, 172), rgba(196, 110, 95, 0.699));
+    background: linear-gradient(rgb(159, 174, 171), rgba(196, 110, 95, 0.699));
     padding: 6px 8px;
     border-radius: 5px;
     color: rgb(168, 33, 33);
     font-size: 20px;
+    margin: 6px;
 
 
-}
-
-/* .product-divs {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-.product-div {
-    text-align: center;
-}
-
-.product-div img {
-    width: 100%;
-    border: 5px solid #333;
 }
 
 .images {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 24px;
 }
 
 .images img {
     width: 30%;
-    border: 5px solid #333;
-} */
+    border: 5px solid #949090;
+}
 
 
 
