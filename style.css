@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 2fr 4fr;
     background-color: #EDF1FF;
+     /* make it sticky navbar */
+    
     width: 70;
     margin: 7px;
     padding: 7px;
