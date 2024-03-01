@@ -255,6 +255,44 @@ p {
 }
 
 
+/* another section  */
+.section_title {
+    color: #0fef52;
+    font-size: 22px;
+    margin-top: 3px;
+}
+.top_product {
+    margin-bottom: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.products img {
+    height: 56px;
+    width: 56px;
+    border:2px solid black;
+}
+
+.product_name {
+
+    margin: 15px;
+    font-size: 18px;
+
+}
+
+.products{
+    display: grid;
+    align-items: center;
+}
+
+
+
+
 
 
 
